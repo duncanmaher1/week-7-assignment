@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/> 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Train List</title>  
+</head>
+<body>
+	<div class="container">
+	<div class="card-panel">
+	<h1 class="text-center">Train Time</h1>
+	</div>
+	</div>
+	<div class="container" id='base'/>
+	<div class="containter">
+	<div class='row' id="results">
+	<div class='col-md-8 col-md-offset-2'>
+	<div class='table'>
+	<table class="table bordered" style='text-align: center;'>
+		<tr>
+		<th>Train Name</th>
+		<th>Destination</th>
+		<th>Frequency</th>
+		<th>Next Arrival</th>
+		<th>Minutes Away</th>
+		</tr>
+		</table>
+		</div>
+		</div>
+		</div>
+		<div class="row">
+	    	<form class="col s12" id="form">
+	      		<div class="row">
+	        	<div class="input-field col s4">
+	          	<input id="name" type="text">
+	          	<label>Train Name</label>
+	        	</div>
+	        	<div class="input-field col s4">
+		  		<input id="destination" type="text">
+	    		<label>Destination</label>
+	       		</div>
+	      		</div>
+	      		<div class="row">
+			    <div class="input-field col s4">
+			    <input id="arrival" type="text">
+		        <label>First Train Time</label>
+			    </div>
+	      		<div class="input-field col s4">
+			    <input id="frequency" type="text">
+			    <label>Frequency</label>
+			    </div>
+		      	</div>
+			    <button class="btn waves-effect waves-light" id="button" type="submit">Add New Train
+			    </button>
+				</form>
+				</div>
+				</div>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script> 
+<script src="assets/javascript/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+</body>
+</html>
